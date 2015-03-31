@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back"
+        android:paddingTop="35dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2" >
+
+            <TextView 
+                android:id="@+id/textView1" 
+                android:layout_width="wrap_content" 
+                android:text="@string/RxPower" 
+                android:layout_height="wrap_content" 
+                android:textSize="20sp">                
+            </TextView>
+
+            <TextView
+                android:id="@+id/RxPower"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/NoData" >
+                
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2" >
+
+            <TextView 
+                android:id="@+id/textView2" 
+                android:layout_width="wrap_content" 
+                android:text="@string/EcIo" 
+                android:layout_height="wrap_content" 
+                android:textSize="20sp">
+                
+            </TextView>
+
+            <TextView
+                android:id="@+id/EcIo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/NoData" >
+                
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2" >
+
+            <TextView 
+                android:id="@+id/textView3" 
+                android:layout_width="wrap_content" 
+                android:text="@string/RxDO" 
+                android:layout_height="wrap_content" 
+                android:textSize="20sp">
+                
+            </TextView>
+
+            <TextView
+                android:id="@+id/RxDO"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/NoData" >
+                
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2" >
+
+            <TextView 
+                android:id="@+id/textView4" 
+                android:layout_width="wrap_content" 
+                android:text="@string/SNR" 
+                android:layout_height="wrap_content" 
+                android:textSize="20sp">
+                
+            </TextView>
+
+            <TextView
+                android:id="@+id/SNRDO"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/NoData" >
+                
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2" >
+
+            <TextView 
+                android:text="@string/NoData" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:id="@+id/SID"></TextView>
+            <TextView 
+                android:text="@string/NoData" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:id="@+id/NID">
+                
+            </TextView>
+        </TableRow>
+
+		<TableRow
+		    android:id="@+id/tableRow6"
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    android:layout_weight="0.2" >
+
+		    <TextView
+            	android:id="@+id/CellId"
+            	android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+            	android:text="@string/NoData" >
+			</TextView>
+
+		    <TextView
+		        android:id="@+id/PN"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="PN" />
+
+		</TableRow>
+
+			<TextView
+			    android:id="@+id/CellName"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1"
+			    android:text="@string/NoData" />
+                
+    </TableLayout>
+
+

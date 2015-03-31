@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="RxPower">1X RxPower:</string>
+    <string name="app_name">信号测试</string>
+    <string name="EcIo">1X EcIo:</string>
+    <string name="RxDO">DO RxPower:</string>
+    <string name="SNR">DO SNR:</string>
+    <string name="About">关于</string>
+    <string name="NoData">No Data</string>
+</resources>
